@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(185, 243, 200);
+    background-image: url("16655900365651463118835.jpg");
+    background-size: 1400px 650px;
+}
+
+.box {
+    width: 500px;
+    background: #fca2d9;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 2px 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    font-size: 36px;
+    padding: 30px 0;
+}
+
+.content {
+    padding: 0 30px;
+}
+
+.input {
+    background: #ffff;
+    box-shadow: 0px 0px 95px -30px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.input label {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.input input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #f3a1e1;
+    width: 50%;
+    text-align: center;
+    font-size: 28px;
+    font-family: "Nunito", sans-serif;
+}
+
+#plaincipherid {
+    width: 200px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#keyid {
+    width: 200px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.encription {
+    width: 100px;
+    height: 50px;
+}
